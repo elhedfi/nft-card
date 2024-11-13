@@ -1,0 +1,57 @@
+body {
+  background-color: #0d1b2a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  color: #fff;
+}
+
+.container {
+  background-color: #14253d;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+.container p {
+  color: hsla(0, 0%, 100%, 0.651);
+}
+.card-details {
+  display: flex;
+  justify-content: space-between; /* Aligne le premier élément à gauche et le second à droite */
+  align-items: center; /* Aligne les éléments verticalement au centre */
+  padding: 10px; /* Optionnel : ajoute un peu d'espace autour du conteneur */
+}
+
+.card-details span:nth-of-type(1) {
+  color: aquamarine;
+  font-weight: bold;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+
+  gap: 20px;
+}
+.card1 .card-image {
+  width: 50%; /* Définit la largeur de l'image */
+}
+.card1 span:nth-of-type(1) {
+  color: rgba(128, 128, 128, 0.63);
+}
+.card1 img {
+  width: 35px;
+  height: 35px;
+  border: 3px solid #f6f7f8;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.line {
+  width: 100%; /* Largeur de la ligne */
+  margin: 10px 0; /* Espace au-dessus et en dessous du trait */
+  opacity: 0.5; /* Rend le trait semi-transparent */
+}
